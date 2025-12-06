@@ -36,7 +36,8 @@ In Google Colab, only PyMC needs explicit install:
 python
 Copy code
 !pip install pymc arviz
-2. Required Dataset
+
+### 2. Required Dataset
 Place the dataset in the working directory:
 
 The script automatically handles:
@@ -65,7 +66,7 @@ MMLU
 
 SWE_Bench
 
-3. Running the Analysis
+###3. Running the Analysis
 In Google Colab
 Upload the CSV: Fronteir_Model_Outcomes_vDeploy (included in Github Repository)
 
@@ -103,7 +104,7 @@ Probability the spline model outperforms linear (lower WAIC)
 
 If dataset size is small (e.g., 5 models), the script automatically skips unstable bootstrap samples.
 
-5. Repository Structure
+### 5. Repository Structure
 pgsql
 Copy code
 .
@@ -111,7 +112,7 @@ Copy code
 ├── Frontier_Model_Outcomes_vDeploy.csv
 ├── README.md
 
-6. Runtime & Compute Requirements
+### 6. Runtime & Compute Requirements
 Correlation + regressions: seconds
 
 Bootstrap spline/piecewise (2000 iters): 1–3 minutes
@@ -122,7 +123,7 @@ Memory footprint: <1 GB
 
 No GPU required
 
-7. Notes
+### 7. Notes
 Spline degrees are automatically reduced if the dataset is too small to avoid singular fits.
 
 Expected numerical warnings (e.g., from tiny bootstrap samples) are suppressed for clarity.
