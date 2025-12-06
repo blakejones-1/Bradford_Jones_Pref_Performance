@@ -39,8 +39,6 @@ Copy code
 2. Required Dataset
 Place the dataset in the working directory:
 
-Copy code
-Frontier_Model_Outcomes_v1600.csv
 The script automatically handles:
 
 converting percent strings (e.g., "91.2%" → 91.2)
