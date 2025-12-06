@@ -1,0 +1,47 @@
+﻿,ChatbotArena_Elo,AIME (no tools),GPQA Diamond,ARC-AGI-2,MMLU,SWE_Bench
+Gemini 3 Pro,1491,95%,91.90%,31.10%,91.80%,76.20%
+Claude Sonnet 4.5,1410,87%,83.40%,13.60%,89.10%,77.20%
+Claude Opus 4.5 (thinking-32k),1467,87%,87%,37.60%,90.80%,80.90%
+GPT-5.1 (high),1457,,88.10%,17.60%,91%,76.30%
+GPT-5.1,1434,94%,88.10%,17.60%,91%,76.30%
+Claude Opus 4.5,1460,,87.00%,,,
+GPT-5 (high),1425,,,,,76.30%
+DeepSeek v3.2 thinking,1422,,,,,67.80%
+Grok 4.1 (thinking),1481,,,,,
+Grok 4.1,1465,,,,,
+Mistral Large 3,1418,,,,,
+,,,,,,
+,,,,,,
+*Chatbot Arena Elo scores are for text,,,,,,
+*MTBench saturated by frontier LLMs with near-perfect results,,,,,,
+,,,,,,
+ChatbotArena_Elo,,,,,,
+"A large-scale, crowdsourced human preference benchmark where real users compare model outputs head-to-head. The resulting ELO score provides the most reliable measure of overall helpfulness, coherence, and conversational quality.",,,,,,
+AIME (no tools),,,,,,
+"A high-difficulty math contest benchmark derived from the American Invitational Mathematics Examination. Tool-free evaluation tests pure reasoning ability, not external computation.",,,,,,
+GPQA Diamond,,,,,,
+"A challenging scientific reasoning benchmark containing graduate- and PhD-level questions across physics, chemistry, and biology. Designed to avoid contamination and to measure deep conceptual understanding.",,,,,,
+ARC-AGI-2,,,,,,
+"A visual and symbolic reasoning test intended to probe abstraction, pattern discovery, and fluid generalization—key ingredients of AGI-like capabilities. Models must infer rules from examples with no language scaffolding.",,,,,,
+HumanEval,,,,,,
+A coding benchmark where models must synthesize completions for Python programming problems that pass hidden unit tests. It assesses functional correctness and general code-generation ability.,,,,,,
+MMLU,,,,,,
+"A broad knowledge benchmark covering 57 academic subjects ranging from humanities to STEM. It tests factual recall, general reasoning, and expert-level domain understanding.",,,,,,
+TruthfulQA,,,,,,
+"A benchmark designed to measure resistance to producing false, misleading, or commonly believed incorrect statements. Models are penalized for following human misconceptions or generating confident hallucinations.",,,,,,
+SWE-Bench Verified,,,,,,
+A real-world software engineering benchmark where models must resolve actual GitHub issues in large codebases. “Verified” indicates automated test execution confirms whether the model’s fix truly solves the bug.,,,,,,
+,,,,,,
+Sources,,,,,,
+,ChatbotArena_Elo,AIME (no tools),GPQA Diamond,ARC-AGI-2,MMLU,SWE_Bench
+Gemini 3 Pro,,,,,,
+Claude Sonnet 4.5,,,,,,
+Claude Opus 4.5 (thinking-32k),,,,https://azure.microsoft.com/en-us/blog/introducing-claude-opus-4-5-in-microsoft-foundry/?utm_source=chatgpt.com,https://azure.microsoft.com/en-us/blog/introducing-claude-opus-4-5-in-microsoft-foundry/?utm_source=chatgpt.com,
+GPT-5.1 (high),,,,,,
+GPT-5.1,,,,,,
+Claude Opus 4.5,,,,,,
+GPT-5 (high),,,,,,
+DeepSeek v3.2 thinking,,,,,,
+Grok 4.1 (thinking),,,,,,
+Grok 4.1,,,,,,
+Mistral Large 3,,,,,,
